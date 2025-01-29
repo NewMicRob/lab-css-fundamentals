@@ -1,0 +1,61 @@
+<!--In The Beginning-->
+<!DOCTYPE html>
+
+<html lang="en">
+<!--Head Portion to the page-->
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css"> <!--which Links the css page to this html-->
+
+    <title>Registration From</title> <!--The Title-->
+
+</head>
+
+<body><!--The Body Portion-->
+    
+    <form action="registration-form" method="POST"> <!--Makes it a form that puts info into server-->
+
+    <h1>Registration Form</h1> <!--Text for top of page(Header)-->
+
+    <!--Input text requirement for Name-->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="fullname" required>
+
+    <br><!--Line breaks 4 Life-->
+    <br><!--Line breaks 4 Life-->
+
+<!--Input text requirement for Email-->
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <br><!--Line breaks 4 Life-->
+    <br><!--Line breaks 4 Life-->
+
+<!--Input text requirement for Password-->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <br><!--Line breaks 4 Life-->
+    <br><!--Line breaks 4 Life-->
+    <br><!--Line breaks 4 life-->
+
+<!--creates a box(container) that can be adjusted and makes submit and reset items in the box(container)-->
+    <div class="box">
+        <div class="submit"><input type="submit"></div>
+        <div class="reset"><input type="reset"></div>
+    </div>
+
+    </form>
+
+    <!--footer-->
+    <footer>
+        This is the footer of the page
+    </footer>
+
+</body>
+
+</html><!--The END-->

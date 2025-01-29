@@ -1,0 +1,105 @@
+/* Edits the body of the webpage with font, colour, spacing and a flex which 
+places things in a column ^v, 100vh puts the footer at the very bottom of the page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: powderblue;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Edits the form within the page changing the colour, thickening the borders, setting height,
+setting width, setting the spacing, centering the text, making the text elements bolder */
+form {
+    background-color: steelblue;
+    border-radius: 10px;
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    font-weight: 400;
+}
+/* Edits the header 1 within the form by centering the text, increasing the font size,
+ makeing the font bolder, changing the colour of the font, setting the spacing so it stays in the form,
+  and making sure it fills the area. */
+form h1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    padding: auto;
+    width: 100%;
+}
+/* Edits all labels in the form setting spacing, font size, thickness, and height of the text box. */
+form label {
+    margin: 3px;
+    font-size: medium;
+    font-weight: 600;
+    line-height: 10px;
+}
+/* Edits the 3 input types spacing, sizing, and adding a border. */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px auto;
+    border: 1px #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Edits the submit input making the text bolder, the background bigger, making it grow
+ with the size of the page, center the text, adding a thin border and make it setting spacing.
+the pointer makes it change. */ 
+input[type="submit"] {
+    font-weight: bold;
+    width: inherit;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Makes submit turn green when hovered over. */
+input[type="submit"]:hover {
+    background-color: lightgreen;
+}
+/* Edits the reset input making the text bolder, the background bigger, making it grow
+ with the size of the page, center the text, adding a thin border and make it setting spacing. */
+input[type="reset"] {
+    font-weight: bold;
+    width: inherit;
+    height: 40px;
+    text-align:center;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* Makes reset turn red when hovered over. */
+input[type="reset"]:hover {
+    background-color: rgb(253, 103, 103);
+}
+/* Edits the submit and reset button to be beside eachother spaced evenly */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Sets reset item perameters*/
+.reset{
+    width: 100%;
+    margin: 5px;
+}
+/* Sets submit item parameters*/
+.submit {
+    width: 100%;
+    margin: 5px;
+}
+/* Edits the footer font size, thickness of the text and centers it at the bottom */
+footer {
+    font-size: small;
+    font-weight: 100;
+    text-align: center;
+}
